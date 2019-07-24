@@ -15,11 +15,11 @@ interface IDimension {
 }
 
 @Component({
-  selector: 'docs-covalent',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  selector: 'td-terminal',
+  templateUrl: './terminal.component.html',
+  styleUrls: [ './terminal.component.scss' ],
 })
-export class DocsAppComponent implements AfterViewInit, AfterViewChecked {
+export class TdTerminalComponent implements AfterViewInit, AfterViewChecked {
   private xterm: Terminal | any;
   private dimensions$: BehaviorSubject<IDimension> = new BehaviorSubject<IDimension>({ h: 0, w: 0 });
 

@@ -34,6 +34,7 @@ import { TabSelectDemoComponent } from './tab-select/tab-select.component';
 import { NavStepsDemoComponent, NavStepsRoute1DemoComponent,
   NavStepsRoute3DemoComponent, NavStepsRoute4DemoComponent } from './nav-steps/nav-steps.component';
 import { HelpDemoComponent } from './help/help.component';
+import { TerminalDemoComponent } from './terminal/terminal.component'
 
 const routes: Routes = [{
   children: [{
@@ -130,6 +131,9 @@ const routes: Routes = [{
     }, {
       component: CodeEditorDemoComponent,
       path: 'code-editor',
+    }, {
+      component: TerminalDemoComponent,
+      path: 'terminal',
     }, {
       component: TextEditorDemoComponent,
       path: 'text-editor',

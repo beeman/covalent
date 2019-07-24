@@ -1,0 +1,16 @@
+<mat-card>
+  <mat-card-title>Terminal</mat-card-title>
+  <mat-card-subtitle>Component wrapping around xterm.js</mat-card-subtitle>
+  <mat-divider hide show-gt-md></mat-divider>
+
+  <div class="terminal">
+    <td-terminal [write]="writeData" (send)="handleSend($event)"></td-terminal>
+  </div>
+
+  <button mat-button (click)="write()">Write</button>
+
+  <pre>{{ data }}</pre>
+</mat-card>
+
+<td-readme-loader resourceUrl="platform/terminal/README.md">
+</td-readme-loader>

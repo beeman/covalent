@@ -152,6 +152,11 @@ export class ComponentsComponent {
     route: 'code-editor',
     title: 'Code Editor',
   }, {
+    description: 'Terminal component',
+    icon: 'computer',
+    route: 'terminal',
+    title: 'Terminal',
+  }, {
     description: 'Text and Markdown editor component',
     icon: 'keyboard',
     route: 'text-editor',

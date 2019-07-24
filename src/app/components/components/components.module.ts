@@ -31,6 +31,7 @@ import { SearchDemoComponent } from './search/search.component';
 import { TabSelectDemoComponent } from './tab-select/tab-select.component';
 import { DynamicFormsDemoComponent } from './dynamic-forms/dynamic-forms.component';
 import { CodeEditorDemoComponent } from './code-editor/code-editor.component';
+import { TerminalDemoComponent } from './terminal/terminal.component';
 import { TextEditorDemoComponent } from './text-editor/text-editor.component';
 import { NotificationsDemoComponent } from './notifications/notifications.component';
 import { VirtualScrollDemoComponent } from './virtual-scroll/virtual-scroll.component';
@@ -73,6 +74,7 @@ import { CovalentMarkdownModule } from '../../../platform/markdown';
 import { CovalentDynamicFormsModule } from '../../../platform/dynamic-forms';
 import { CovalentFlavoredMarkdownModule } from '../../../platform/flavored-markdown';
 import { CovalentCodeEditorModule } from '../../../platform/code-editor';
+import { CovalentTerminalModule } from '../../../platform/terminal';
 import { CovalentTextEditorModule } from '../../../platform/text-editor';
 
 import { DocumentationToolsModule } from '../../documentation-tools';
@@ -113,6 +115,7 @@ import { CovalentSidesheetModule } from '@covalent/core/sidesheet';
     SearchDemoComponent,
     DynamicFormsDemoComponent,
     CodeEditorDemoComponent,
+    TerminalDemoComponent,
     TextEditorDemoComponent,
     NotificationsDemoComponent,
     BreadcrumbDemoComponent,
@@ -174,6 +177,7 @@ import { CovalentSidesheetModule } from '@covalent/core/sidesheet';
     CovalentMessageModule,
     CovalentVirtualScrollModule,
     CovalentCodeEditorModule,
+    CovalentTerminalModule,
     CovalentTextEditorModule,
     CovalentBreadcrumbsModule,
     CovalentFlavoredMarkdownModule,
